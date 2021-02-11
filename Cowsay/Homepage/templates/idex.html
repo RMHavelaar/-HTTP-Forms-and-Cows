@@ -1,0 +1,21 @@
+<h1>What does the cow say??</h1>
+
+<!-- <h4>
+  <a href="WhatHasTheCowSaid/">What has the cow said?</a> 
+</h4> -->
+
+<ul>
+  {% for recipe in recipes %}
+  <li>
+      <!-- <strong>
+          <a href="/recipes/{{ recipe.id }}">
+            {{recipe.title}}
+        </a>
+      </strong>
+      <a href="/author/{{ recipe.author.id }}">
+        - Written by {{recipe.author.name}}
+      </a> -->
+      
+  </li>
+  {% endfor %}
+</ul>
